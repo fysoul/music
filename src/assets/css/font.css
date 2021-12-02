@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'iconfont';  /* Project id 2858094 */
+    src: url('//at.alicdn.com/t/font_2858094_uf9k621xnek.woff2?t=1635162433814') format('woff2'),
+         url('//at.alicdn.com/t/font_2858094_uf9k621xnek.woff?t=1635162433814') format('woff'),
+         url('//at.alicdn.com/t/font_2858094_uf9k621xnek.ttf?t=1635162433814') format('truetype');
+  }
+
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:32rem;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+    .icon-like:before{
+        content: "\e613"; 
+    }
+
+    .icon-search:before{
+        content: "\e600"; 
+    }
+
+    .icon-stop:before{
+        content: "\e67b"; 
+    }
+
+    .icon-start:before{
+        content: "\e68a"; 
+    }
+
+    .icon-beforesong:before{
+        content: "\e681"; 
+    }
+
+    .icon-nextsong:before{
+        content: "\e67d"; 
+    }
+
+    .icon-addlike:before{
+        content: "\e60d"; 
+    }
+
+    .icon-lrc:before{
+        content: "\e727"; 
+    }
+
+    .icon-sj:before{
+        content: "\e627"; 
+    }
+
+    .icon-singloop:before{
+        content: "\f1f9"; 
+    }
+
+    .icon-singsloop:before{
+        content: "\f1fa"; 
+    }
+
+
+    /* 歌单 */
+    .icon-gd:before{
+        content: "\e621"; 
+    }
+
+    /* 下载 */
+    .icon-xz:before{
+        content: "\e623"; 
+    }
+
+    /* 排行榜 */
+    .icon-phb:before{
+        content: "\e7fe"; 
+    }
+
+    /* 歌单 */
+    .icon-gd:before{
+        content: "\e621"; 
+    }
+
+     /* 全屏 */
+     .icon-qp:before{
+        content: "\e674"; 
+    }
+
+     /* 还原 */
+     .icon-hy:before{
+        content: "\e675"; 
+    }
+
+     /* 设置 */
+     .icon-sz:before{
+        content: "\e8b7"; 
+    }
+
+     /* 换肤 */
+     .icon-hf:before{
+        content: "\e617"; 
+    }
+
+     /* 添加到 */
+     .icon-xh1:before{
+        content: "\e86f"; 
+    }
+
+     /* 添加到  */
+     .icon-xh2:before{
+        content: "\e882"; 
+    }
+
+    /* 添加  */
+    .icon-add:before{
+        content: "\e62e"; 
+    }
+
+    /* 下载  */
+    .icon-xz1:before{
+        content: "\e637"; 
+    }
+
+    /* 新建列表  */
+    .icon-addlist:before{
+        content: "\e603"; 
+    }
+
+    /* 新建列表  */
+    .icon-addlist1:before{
+        content: "\e6be"; 
+    }
+
+    /* 删除下载  */
+    .icon-sc1:before{
+        content: "\e629"; 
+    }
+
+     /* 删除下载  */
+     .icon-sc2:before{
+        content: "\e61a"; 
+    }
+
+     /* 删除下载  */
+     .icon-sc3:before{
+        content: "\e658"; 
+    }
+
+     /* 下载3  */
+     .icon-xz3:before{
+        content: "\e654"; 
+    }
+
+     /* mv  */
+     .icon-mv:before{
+        content: "\e62c"; 
+    }
+
+     /* 正确  */
+     .icon-zq:before{
+        content: "\e656"; 
+    }
+
+    /* 正确1  */
+    .icon-zq1:before{
+        content: "\e606"; 
+    }
+
+     /* 方向  */
+     .icon-fx:before{
+        content: "\e611"; 
+    }
+
+
+     /* 等待  */
+     .icon-dd:before{
+        content: "\e6e1"; 
+    }
+
+
+
+
+    

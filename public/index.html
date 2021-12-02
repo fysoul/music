@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <style>
+      .cloak{
+        position: absolute;
+        top: calc(50% - 25px);
+        left: calc(50% - 250px);
+        width: 500px;
+        height: 50px;
+        clear: both;
+        opacity: 1;
+        transition: all 500ms;
+      }
+
+      .cloak span{
+        float: left;
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 48px;
+        transition: all 1s;
+        animation: name 1s linear calc(var(--i)*100ms) infinite;
+      }
+
+      @keyframes  name{
+           0%{
+             transform: translateY(0%);
+           }
+           25%{
+             transform: translateY(100%);
+           }
+           50%{
+             transform: translateY(0%);
+           }
+           75%{
+             transform: translateY(-100%);
+           }
+           100%{
+             transform: translateY(0%);
+           }
+      }
+  </style>
+
+  </head>
+  <body>
+    <div id="app">
+
+    </div>
+    <div class="cloak" v-cloak data-time="0">
+      <span  style="--i:0">L</span>
+      <span style="--i:1">O</span>
+      <span style="--i:2">A</span>
+      <span style="--i:3">D</span>
+      <span style="--i:4">I</span>
+      <span style="--i:5">N</span>
+      <span style="--i:6">G</span>
+      <span style="--i:7">.</span>
+      <span style="--i:8">.</span>
+      <span style="--i:9">.</span>
+    </div>
+
+    <script>
+       let el=document.querySelector('.cloak')
+       let child=document.querySelectorAll('.cloak span')
+        el.dataTime=setInterval(()=>{
+         for(var i=0;i<child.length;i++){
+           let ran1=Math.floor(Math.random()*256)
+           let ran2=Math.floor(Math.random()*256)
+           let ran3=Math.floor(Math.random()*256)
+           child[i].style.color='rgb('+ran1+','+ran2+','+ran3+')'
+         }
+  
+        },1200)
+    </script>
+    
+  </body>
+</html>

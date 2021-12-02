@@ -1,0 +1,32 @@
+@import './normalize.css';
+@import './font.css';
+@import './variable.css';
+*:not(html){
+   font-size: 20rem;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none;
+
+    
+}
+body{
+    perspective:1000px;
+    color: white;
+    
+    
+    -moz-backface-visibility: visible;
+}
+
+@media screen and (max-width:800px) {
+    .main{
+        width: 1280px;
+    }
+}
+
+
+
